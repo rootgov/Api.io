@@ -16,7 +16,7 @@ describe('Layout Component', () => {
   it('matches the snapshot', async () => {
     render(
       <Layout>
-        <div>test</div>
+        <div>production</div>
       </Layout>
     )
     await waitFor(() => {
@@ -25,7 +25,7 @@ describe('Layout Component', () => {
   })
   it('renders the page layout with the correct document title', async () => {
     render(
-      <Layout title="Test document title">
+      <Layout title="ATLANTIS.AI">
         <div>App</div>
       </Layout>
     )
